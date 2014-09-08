@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B542CA4719764CE100C69587 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = B542CA4619764CE000C69587 /* Game.m */; };
+		B5E24E3E1976411C00131770 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E24E3D1976411C00131770 /* Foundation.framework */; };
+		B5E24E401976411C00131770 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E24E3F1976411C00131770 /* CoreGraphics.framework */; };
+		B5E24E421976411C00131770 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E24E411976411C00131770 /* UIKit.framework */; };
+		B5E24E481976411C00131770 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5E24E461976411C00131770 /* InfoPlist.strings */; };
+		B5E24E4A1976411C00131770 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E24E491976411C00131770 /* main.m */; };
+		B5E24E4E1976411C00131770 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E24E4D1976411C00131770 /* AppDelegate.m */; };
+		B5E24E511976411C00131770 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E24E4F1976411C00131770 /* Main.storyboard */; };
+		B5E24E541976411C00131770 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E24E531976411C00131770 /* ViewController.m */; };
+		B5E24E561976411C00131770 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5E24E551976411C00131770 /* Images.xcassets */; };
+		B5E24E5D1976411C00131770 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E24E5C1976411C00131770 /* XCTest.framework */; };
+		B5E24E5E1976411C00131770 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E24E3D1976411C00131770 /* Foundation.framework */; };
+		B5E24E5F1976411C00131770 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E24E411976411C00131770 /* UIKit.framework */; };
+		B5E24E671976411C00131770 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5E24E651976411C00131770 /* InfoPlist.strings */; };
+		B5E24E691976411C00131770 /* FlappyGermanyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E24E681976411C00131770 /* FlappyGermanyTests.m */; };
+		B5E24E761976419D00131770 /* Germany.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E24E721976419D00131770 /* Germany.png */; };
+		B5E24E771976419D00131770 /* Intro in Resources */ = {isa = PBXBuildFile; fileRef = B5E24E731976419D00131770 /* Intro */; };
+		B5E24E7B197643B400131770 /* cup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5E24E7A197643B400131770 /* cup.jpg */; };
+		B5F19E10197650E900AC382C /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F19E0F197650E900AC382C /* Background.png */; };
+		B5F19E1219765ECB00AC382C /* Brazil.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F19E1119765ECB00AC382C /* Brazil.png */; };
+		B5F19E141976627500AC382C /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F19E131976627500AC382C /* white.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5E24E601976411C00131770 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5E24E321976411C00131770 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5E24E391976411C00131770;
+			remoteInfo = FlappyGermany;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B542CA4519764CE000C69587 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		B542CA4619764CE000C69587 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
+		B5E24E3A1976411C00131770 /* FlappyGermany.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyGermany.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E24E3D1976411C00131770 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5E24E3F1976411C00131770 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5E24E411976411C00131770 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B5E24E451976411C00131770 /* FlappyGermany-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlappyGermany-Info.plist"; sourceTree = "<group>"; };
+		B5E24E471976411C00131770 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5E24E491976411C00131770 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5E24E4B1976411C00131770 /* FlappyGermany-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlappyGermany-Prefix.pch"; sourceTree = "<group>"; };
+		B5E24E4C1976411C00131770 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5E24E4D1976411C00131770 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5E24E501976411C00131770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5E24E521976411C00131770 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5E24E531976411C00131770 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5E24E551976411C00131770 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5E24E5B1976411C00131770 /* FlappyGermanyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyGermanyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E24E5C1976411C00131770 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B5E24E641976411C00131770 /* FlappyGermanyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlappyGermanyTests-Info.plist"; sourceTree = "<group>"; };
+		B5E24E661976411C00131770 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5E24E681976411C00131770 /* FlappyGermanyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlappyGermanyTests.m; sourceTree = "<group>"; };
+		B5E24E721976419D00131770 /* Germany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Germany.png; sourceTree = "<group>"; };
+		B5E24E731976419D00131770 /* Intro */ = {isa = PBXFileReference; lastKnownFileType = file; path = Intro; sourceTree = "<group>"; };
+		B5E24E7A197643B400131770 /* cup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cup.jpg; sourceTree = "<group>"; };
+		B5F19E0F197650E900AC382C /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		B5F19E1119765ECB00AC382C /* Brazil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brazil.png; sourceTree = "<group>"; };
+		B5F19E131976627500AC382C /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5E24E371976411C00131770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E24E401976411C00131770 /* CoreGraphics.framework in Frameworks */,
+				B5E24E421976411C00131770 /* UIKit.framework in Frameworks */,
+				B5E24E3E1976411C00131770 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E24E581976411C00131770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E24E5D1976411C00131770 /* XCTest.framework in Frameworks */,
+				B5E24E5F1976411C00131770 /* UIKit.framework in Frameworks */,
+				B5E24E5E1976411C00131770 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5E24E311976411C00131770 = {
+			isa = PBXGroup;
+			children = (
+				B5E24E431976411C00131770 /* FlappyGermany */,
+				B5E24E621976411C00131770 /* FlappyGermanyTests */,
+				B5E24E3C1976411C00131770 /* Frameworks */,
+				B5E24E3B1976411C00131770 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5E24E3B1976411C00131770 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5E24E3A1976411C00131770 /* FlappyGermany.app */,
+				B5E24E5B1976411C00131770 /* FlappyGermanyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5E24E3C1976411C00131770 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5E24E3D1976411C00131770 /* Foundation.framework */,
+				B5E24E3F1976411C00131770 /* CoreGraphics.framework */,
+				B5E24E411976411C00131770 /* UIKit.framework */,
+				B5E24E5C1976411C00131770 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5E24E431976411C00131770 /* FlappyGermany */ = {
+			isa = PBXGroup;
+			children = (
+				B5E24E4C1976411C00131770 /* AppDelegate.h */,
+				B5E24E4D1976411C00131770 /* AppDelegate.m */,
+				B5E24E4F1976411C00131770 /* Main.storyboard */,
+				B5E24E521976411C00131770 /* ViewController.h */,
+				B5E24E531976411C00131770 /* ViewController.m */,
+				B542CA4519764CE000C69587 /* Game.h */,
+				B542CA4619764CE000C69587 /* Game.m */,
+				B5E24E551976411C00131770 /* Images.xcassets */,
+				B5E24E441976411C00131770 /* Supporting Files */,
+			);
+			path = FlappyGermany;
+			sourceTree = "<group>";
+		};
+		B5E24E441976411C00131770 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5E24E721976419D00131770 /* Germany.png */,
+				B5F19E0F197650E900AC382C /* Background.png */,
+				B5F19E131976627500AC382C /* white.png */,
+				B5F19E1119765ECB00AC382C /* Brazil.png */,
+				B5E24E731976419D00131770 /* Intro */,
+				B5E24E451976411C00131770 /* FlappyGermany-Info.plist */,
+				B5E24E7A197643B400131770 /* cup.jpg */,
+				B5E24E461976411C00131770 /* InfoPlist.strings */,
+				B5E24E491976411C00131770 /* main.m */,
+				B5E24E4B1976411C00131770 /* FlappyGermany-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5E24E621976411C00131770 /* FlappyGermanyTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5E24E681976411C00131770 /* FlappyGermanyTests.m */,
+				B5E24E631976411C00131770 /* Supporting Files */,
+			);
+			path = FlappyGermanyTests;
+			sourceTree = "<group>";
+		};
+		B5E24E631976411C00131770 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5E24E641976411C00131770 /* FlappyGermanyTests-Info.plist */,
+				B5E24E651976411C00131770 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5E24E391976411C00131770 /* FlappyGermany */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5E24E6C1976411C00131770 /* Build configuration list for PBXNativeTarget "FlappyGermany" */;
+			buildPhases = (
+				B5E24E361976411C00131770 /* Sources */,
+				B5E24E371976411C00131770 /* Frameworks */,
+				B5E24E381976411C00131770 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlappyGermany;
+			productName = FlappyGermany;
+			productReference = B5E24E3A1976411C00131770 /* FlappyGermany.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5E24E5A1976411C00131770 /* FlappyGermanyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5E24E6F1976411C00131770 /* Build configuration list for PBXNativeTarget "FlappyGermanyTests" */;
+			buildPhases = (
+				B5E24E571976411C00131770 /* Sources */,
+				B5E24E581976411C00131770 /* Frameworks */,
+				B5E24E591976411C00131770 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5E24E611976411C00131770 /* PBXTargetDependency */,
+			);
+			name = FlappyGermanyTests;
+			productName = FlappyGermanyTests;
+			productReference = B5E24E5B1976411C00131770 /* FlappyGermanyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5E24E321976411C00131770 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ben Chamla";
+				TargetAttributes = {
+					B5E24E5A1976411C00131770 = {
+						TestTargetID = B5E24E391976411C00131770;
+					};
+				};
+			};
+			buildConfigurationList = B5E24E351976411C00131770 /* Build configuration list for PBXProject "FlappyGermany" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5E24E311976411C00131770;
+			productRefGroup = B5E24E3B1976411C00131770 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5E24E391976411C00131770 /* FlappyGermany */,
+				B5E24E5A1976411C00131770 /* FlappyGermanyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5E24E381976411C00131770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E24E7B197643B400131770 /* cup.jpg in Resources */,
+				B5F19E1219765ECB00AC382C /* Brazil.png in Resources */,
+				B5F19E141976627500AC382C /* white.png in Resources */,
+				B5E24E561976411C00131770 /* Images.xcassets in Resources */,
+				B5E24E761976419D00131770 /* Germany.png in Resources */,
+				B5F19E10197650E900AC382C /* Background.png in Resources */,
+				B5E24E771976419D00131770 /* Intro in Resources */,
+				B5E24E481976411C00131770 /* InfoPlist.strings in Resources */,
+				B5E24E511976411C00131770 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E24E591976411C00131770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E24E671976411C00131770 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5E24E361976411C00131770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E24E541976411C00131770 /* ViewController.m in Sources */,
+				B5E24E4E1976411C00131770 /* AppDelegate.m in Sources */,
+				B5E24E4A1976411C00131770 /* main.m in Sources */,
+				B542CA4719764CE100C69587 /* Game.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E24E571976411C00131770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E24E691976411C00131770 /* FlappyGermanyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5E24E611976411C00131770 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5E24E391976411C00131770 /* FlappyGermany */;
+			targetProxy = B5E24E601976411C00131770 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5E24E461976411C00131770 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5E24E471976411C00131770 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B5E24E4F1976411C00131770 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5E24E501976411C00131770 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5E24E651976411C00131770 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5E24E661976411C00131770 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5E24E6A1976411C00131770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5E24E6B1976411C00131770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5E24E6D1976411C00131770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlappyGermany/FlappyGermany-Prefix.pch";
+				INFOPLIST_FILE = "FlappyGermany/FlappyGermany-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5E24E6E1976411C00131770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlappyGermany/FlappyGermany-Prefix.pch";
+				INFOPLIST_FILE = "FlappyGermany/FlappyGermany-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B5E24E701976411C00131770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlappyGermany.app/FlappyGermany";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlappyGermany/FlappyGermany-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FlappyGermanyTests/FlappyGermanyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B5E24E711976411C00131770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlappyGermany.app/FlappyGermany";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlappyGermany/FlappyGermany-Prefix.pch";
+				INFOPLIST_FILE = "FlappyGermanyTests/FlappyGermanyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5E24E351976411C00131770 /* Build configuration list for PBXProject "FlappyGermany" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E24E6A1976411C00131770 /* Debug */,
+				B5E24E6B1976411C00131770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5E24E6C1976411C00131770 /* Build configuration list for PBXNativeTarget "FlappyGermany" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E24E6D1976411C00131770 /* Debug */,
+				B5E24E6E1976411C00131770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5E24E6F1976411C00131770 /* Build configuration list for PBXNativeTarget "FlappyGermanyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E24E701976411C00131770 /* Debug */,
+				B5E24E711976411C00131770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5E24E321976411C00131770 /* Project object */;
+}
